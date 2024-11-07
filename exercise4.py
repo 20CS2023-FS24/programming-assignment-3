@@ -27,11 +27,7 @@ def set_negatives_to_zero(arr):
     >>> set_negatives_to_zero(arr)
     array([], dtype=float64)
     """
-    # Make a copy of the array to avoid modifying the original
-    arr_copy = arr.copy()
-    # Use fancy indexing to set all negative values to 0
-    arr_copy[arr_copy < 0] = 0
-    return arr_copy
+
 
 
 if __name__ == "__main__":
